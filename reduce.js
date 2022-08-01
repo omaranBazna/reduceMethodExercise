@@ -4,4 +4,4 @@ const initial = {
   seaside: 0,
 };
 
-const actions = [];
+const actions = [{ type: "MOVE_TO_CITY", payload: 1 }];
