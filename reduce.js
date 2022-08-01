@@ -19,5 +19,9 @@ const actions = [
 
 const current = actions.reduce((acc, cur) => {
   switch (cur.type) {
+    case "MOVE_TO_CITY":
+    case "MOVE_FROM_COUNTRY":
+    case "MOVE_TO_SEASIDE":
+    default:
   }
 }, initial);
