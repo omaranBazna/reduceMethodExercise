@@ -22,6 +22,7 @@ const current = actions.reduce((acc, cur) => {
     case "MOVE_TO_CITY":
       return { ...acc, city: acc.city + cur.payload };
     case "MOVE_FROM_COUNTRY":
+      return { ...acc, country: acc.country - cur.payload };
     case "MOVE_TO_SEASIDE":
     default:
   }
