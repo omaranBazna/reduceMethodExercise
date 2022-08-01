@@ -17,4 +17,7 @@ const actions = [
   },
 ];
 
-const current = actions.reduce((acc, curr) => {}, initial);
+const current = actions.reduce((acc, cur) => {
+  switch (cur.type) {
+  }
+}, initial);
