@@ -10,4 +10,9 @@ const actions = [
     type: "MOVE_FROM_COUNTRY",
     payload: 2,
   },
+
+  {
+    type: "MOVE_TO_SEASIDE",
+    payload: 3,
+  },
 ];
