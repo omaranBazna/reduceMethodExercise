@@ -31,3 +31,4 @@ const current = actions.reduce((acc, cur) => {
 }, initial);
 
 console.log(current);
+///the result as expected I fall in love with flux pattern
