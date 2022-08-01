@@ -29,3 +29,5 @@ const current = actions.reduce((acc, cur) => {
       return acc;
   }
 }, initial);
+
+console.log(current);
