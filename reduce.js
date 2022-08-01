@@ -16,3 +16,5 @@ const actions = [
     payload: 3,
   },
 ];
+
+const current = actions.reduce((acc, curr) => {}, initial);
