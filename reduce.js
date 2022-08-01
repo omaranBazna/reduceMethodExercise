@@ -3,3 +3,5 @@ const initial = {
   country: 0,
   seaside: 0,
 };
+
+const actions = [];
