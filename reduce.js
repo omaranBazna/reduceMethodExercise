@@ -26,5 +26,6 @@ const current = actions.reduce((acc, cur) => {
     case "MOVE_TO_SEASIDE":
       return { ...acc, seaside: acc.seaside + cur.payload };
     default:
+      return acc;
   }
 }, initial);
